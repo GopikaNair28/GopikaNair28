@@ -17,6 +17,15 @@
     <style>
         body {
             padding-top: 54px;
+            background: #606c88;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #3f4c6b, #606c88);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        .white{
+            color:azure;
         }
 
         @media (min-width: 992px) {
@@ -36,10 +45,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="mt-3 text-center">Water-PooL</h1>
-                <p class="lead text-center">water consumption billing system</p>
+                <h1 class="mt-3 text-center white">Water-PooL</h1>
+                <p class="lead text-center white">water consumption billing system</p>
+                
                 <div class="row">
-                    <div class="col-6 offset-3">
+                    <div class="col-lg-6 offset-lg-3">
                         <div class="card">
                             <div class="card-header text-center">
                                 Invoice
@@ -47,30 +57,30 @@
                             <div class="card-body">
 
                                 <table class="table table-striped">
-                                 <tbody>
+                                    <tbody>
                                         <tr>
                                             <th scope="row">1</th>
                                             <td>House Number</td>
                                             <td>82</td>
-                                            
+
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
                                             <td>Owner Name</td>
                                             <td>Jacob</td>
-                                           
+
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>Total Reading</td>
                                             <td>112 Litre</td>
-                                            
+
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <th scope="row">4</th>
                                             <td>Monthly Consumption Bill</td>
                                             <td>768/-</td>
-                                            
+
                                         </tr>
                                     </tbody>
                                 </table>
